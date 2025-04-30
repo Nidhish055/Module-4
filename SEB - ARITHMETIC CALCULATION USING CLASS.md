@@ -33,9 +33,11 @@ To write a Python program to perform addition and division operations using a cl
 ---
 
 ### PROGRAM
-```
-Reg no-212223050032
-Name : Nidhish B
+
+```python
+
+#Reg no-212223050032
+#Name : Nidhish B
 
 a=int(input())
 b=int(input())
