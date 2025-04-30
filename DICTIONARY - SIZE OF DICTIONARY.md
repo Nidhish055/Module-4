@@ -1,11 +1,10 @@
 
-## DICTIONARY - SIZE OF DICTIONARY
+## DICTIONARY - SORTING KEYS AND VALUES IN ALPHABETICAL ORDER
 
----
-
-## AIM  
+### AIM  
 
 Write a python program to Sorting the Keys and Values in Alphabetical Order using the Key in Dictionary.
+
 ---
 
 ### ALGORITHM
