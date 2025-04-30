@@ -1,34 +1,54 @@
 # Exp.No:17  
-## EXCEPTION HANDLING
+## EXCEPTION HANDLING – EVEN OR ODD CHECK WITH VALUE ERROR HANDLING
 
 ---
 
 ### AIM  
-To create a Python program that prompts the user for a list of grades separated by commas, splits the string into individual grades, and uses exception handling to inform the user if the values they entered cannot be converted to integers.
+
+To write a python program for the solution of value error in exception handling and check whether the number is even or odd.
 
 ---
 
 ### ALGORITHM
 
-1. Begin the program.  
-2. Read a string `input_str` from the user using `input()`.  
-3. Split the input string using commas (`,`) to create a list of grades.  
-4. Use a `try` block to attempt converting each item in the grades list to an integer and store the result in `l1`.  
-5. If the conversion is successful, print the list `l1` containing the integer values.  
-6. If an error occurs during conversion (for example, if the input is not a valid number), catch the exception and print an error message: `"The grades you entered were in an invalid format."` along with the original grades list.  
-7. Terminate the program.
+1. Begin the program.
+2. Prompt the user to enter a number using input().
+3. Use a try-except block to catch ValueError if the input cannot be converted to an integer.
+4. Inside the try block:
+    a. Convert the input to an integer.
+    b. Check if the number is even or odd using modulus operator.
+    c. Display the appropriate message.
+5. In the except block:
+    a. Display an error message asking the user to enter a valid number.
+6. End the program.
+
 
 ---
 
 ### PROGRAM
 
-```
-Reg.No
-Name
-Add Your Code Here
+```python
+#Reg.No : 212223050032
+#Name : Nidhish B
+
+x = input()
+
+if x.isdigit():
+    x = int(x) 
+
+    if x % 2 == 0:
+        print('You entered even number')
+    else:
+        print('An odd number')
+else:
+    print("Enter only number")
 
 ```
 
 ### OUTPUT
 
+![image](https://github.com/user-attachments/assets/fc95ae11-aea8-4c7c-83d3-8dc2a937a318)
+
 ### RESULT
+
+The Python program successfully handles value errors and determines whether a number is even or odd.
